@@ -9,7 +9,9 @@
 bill = float(input("what was the total bill ? "))
 tip = int(input("what is the tip you want to give ? 10, 12, or 15 ?"))
 num_of_people = int(input("what is the number of people to splite the bill ?"))
-totoal_bill = bill + tip/100*bill
+
+totoal_bill = bill + tip / 100 * bill
 result = totoal_bill / num_of_people
 final_result = "{:.2f}".format(result)
-print ( f"Each person should pay : ${final_result}")
+
+print(f"Each person should pay : ${final_result}")
