@@ -5,6 +5,7 @@
 # total_bill = float(bill_amount)+ ((int(tip_percentage)/100)*float(bill_amount))
 # result = total_bill / int(number_of_people)
 
+
 # print(f"Each person should pay : ${round(result,2)}")
 bill = float(input("what was the total bill ? "))
 tip = int(input("what is the tip you want to give ? 10, 12, or 15 ?"))
