@@ -8,9 +8,11 @@ lives = 6
 from hangman import logo
 print(logo)
 
+
 for num in range(len_of_selected_word) :
     display += "_"
 end_of_game = False
+
 
 while not end_of_game :
     guess = input("plz guess a letter : ").lower()
@@ -35,4 +37,3 @@ while not end_of_game :
     
     print(stages[lives])
  
-
