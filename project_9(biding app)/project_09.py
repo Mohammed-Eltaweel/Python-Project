@@ -24,7 +24,7 @@ import os
 #     },
 #     {
 #         "Country":"Germany" ,
-#         "cities_visited":["Berline" ,"Hamburge","Stuttgart"] ,
+#         "cities_visited":["Berline"  ,"Hamburge","Stuttgart"] ,
 #         "total_visits" :13
 #     },
 # ]
@@ -72,10 +72,7 @@ for item in dictionary :
         max = dictionary[item]
         winner = item
     
-# val_lis = list(dictionary.values())
-# keys_lis = list(dictionary.keys())
-# position = val_lis.index(max)
-# winner = keys_lis[position]
+
 clear()
 print(f"congratulation to ' {winner} ' with the largest bid = {max}")
     
